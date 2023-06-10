@@ -1,0 +1,70 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width:340px){
+    .tudo{
+        width: 360px;
+        height: 740px;
+        background-color:aliceblue;
+        margin: auto;
+    }
+    .nav123{
+        width: 360px;
+        height: 40px;
+        background-color: aliceblue;
+    }
+    .barra{
+        width: 360px;
+        height: 300px;
+        margin-top: 400px;
+        display: flex;
+        background-image: url(/Imagens/Logo\ pequena.png);
+    }
+    .texto{
+        width: 250px;
+        height: 130px;
+    }
+    .imagem{
+        width: 300px;
+        height: 380px;
+        margin: auto;
+        margin-top: -700px;
+        background-image: url(/Imagens/Logo.png);
+    }
+}
+@media only screen and (min-width:900px){
+    .tudo{
+        width: 1000px;
+        height: 750px;
+        background-color: gray;
+        margin: auto;
+    }
+    .nav123{
+        width: 1000px;
+        height: 40px;
+        background-color: aliceblue;
+    }
+    .barra{
+        width: 1000px;
+        height: 300px;
+        margin-top: 205px;
+        display: flex;
+        background-image: url(/Imagens/Logo\ comprida.jpg);
+    }
+    .texto{
+        width: 250px;
+        height: 130px;
+        margin-left: 370px;
+        margin-top: 10px;
+    }
+    .imagem{
+        width: 300px;
+        height: 450px;
+        margin-top: -375px;
+        margin-left: 30px;
+    }
+
+}
